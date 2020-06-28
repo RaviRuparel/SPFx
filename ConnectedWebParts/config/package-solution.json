@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-connected-webarts-client-side-solution",
+    "id": "2c9fd613-f7be-44eb-a6a1-dbb5bee02d98",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-connected-webarts.sppkg"
+  }
+}

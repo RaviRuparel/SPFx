@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "data-sender-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataSenderWp/DataSenderWpWebPart.js",
+          "manifest": "./src/webparts/dataSenderWp/DataSenderWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "data-receiver-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataReceiverWp/DataReceiverWpWebPart.js",
+          "manifest": "./src/webparts/dataReceiverWp/DataReceiverWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DataSenderWpWebPartStrings": "lib/webparts/dataSenderWp/loc/{locale}.js",
+    "DataReceiverWpWebPartStrings": "lib/webparts/dataReceiverWp/loc/{locale}.js"
+  }
+}
