@@ -1,6 +1,13 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
 
-.dataReceiverWp {
+.dataReceiverWp 
+{
+  h2{
+    background-color: blue;
+    color:white;
+    padding: 10px 5px;
+  }
+
   .container {
     max-width: 700px;
     margin: 0px auto;
