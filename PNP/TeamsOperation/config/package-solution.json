@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teams-react-operation-in-teams-client-side-solution",
+    "id": "0d1e5e9b-01af-4f8a-bb7d-9ad8395d6dff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true
+  },
+  "paths": {
+    "zippedPackage": "solution/teams-react-operation-in-teams.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "flip-clock-for-countries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/flipClockForCountries/FlipClockForCountriesWebPart.js",
+          "manifest": "./src/webparts/flipClockForCountries/FlipClockForCountriesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FlipClockForCountriesWebPartStrings": "lib/webparts/flipClockForCountries/loc/{locale}.js"
+  }
+}
